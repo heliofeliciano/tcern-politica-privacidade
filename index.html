@@ -1,237 +1,289 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Resolução nº 021/2021-TCE/RN — Política de Segurança da Informação</title>
-<style>
-body{font-family:Georgia,"Times New Roman",serif;line-height:1.6;max-width:50rem;margin:0 auto;padding:1rem;color:#222}
-h1{text-align:center;font-size:1.3rem}
-h2{text-align:center;font-size:1.15rem;margin-top:2rem}
-h3{font-size:1.05rem;margin-top:1.5rem}
-p{text-align:justify;margin:.6rem 0}
-.ementa{margin-left:35%;font-style:italic}
-.inciso{margin-left:2rem}
-.par{margin-left:1rem}
-.centro,.assinatura,.cargo{text-align:center}
-.assinatura{margin-top:2rem;font-weight:bold}
-.cargo{margin-top:0}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Resolução nº 021/2021-TCE/RN</title>
+  <style>
+    :root {
+      --texto: #000;
+      --fundo: #fff;
+      --revogado: #8a1c1c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--fundo);
+      color: var(--texto);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 12pt;
+      line-height: 1.25;
+    }
+    .pagina {
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in 0.8in 1in;
+    }
+    .cabecalho { margin-bottom: 3.2em; }
+    .logo { width: 60%; aspect-ratio: 880 / 130; overflow: hidden; }
+    .logo img { display: block; width: 176.4%; height: auto; }
+    .cabecalho .minuta {
+      margin: 0.35em 0 0;
+      font-size: 10pt;
+      font-weight: bold;
+    }
+    .titulo {
+      margin: 0 0 2.6em;
+      text-align: center;
+      font-size: 12pt;
+      font-weight: bold;
+    }
+    p { margin: 0 0 0.9em; text-align: justify; text-indent: 1.06in; }
+    .ementa {
+      margin: 0 0 2.4em 44%;
+      text-indent: 0;
+      font-style: italic;
+    }
+    .resolve { margin-top: 2.2em; }
+    .secao {
+      margin: 1.6em 0 1.4em;
+      text-align: center;
+      font-size: 12pt;
+      font-weight: bold;
+    }
+    .assinatura { margin: 2.2em 0 0; text-align: center; text-indent: 0; }
+    .assinatura.cargo { margin-top: 0; }
+    .revogado { color: var(--revogado); }
+    @media (max-width: 600px) {
+      .pagina { padding: 16px 16px 48px; }
+      p { text-indent: 1.5em; }
+      .ementa { margin-left: 20%; }
+    }
+    @media print {
+      .pagina { padding: 0; max-width: none; }
+      .secao { break-after: avoid; }
+    }
+  </style>
 </head>
 <body>
-<main>
-<h1>RESOLUÇÃO Nº 021/2021-TCE/RN, 08 DE SETEMBRO DE 2021</h1>
-<p class="ementa">Institui a Política de Segurança da Informação no âmbito do Tribunal de Contas do Estado do Rio Grande do Norte - TCE/RN e dá outras providências.</p>
-<p>O TRIBUNAL DE CONTAS DO ESTADO DO RIO GRANDE DO NORTE, no uso das atribuições que lhe confere o disposto no inciso XIX do art. 7º da Lei complementar Estadual nº 464, de 05 de janeiro de 2012, e o inciso IX do art. 12 do seu Regimento Interno, aprovado pela Resolução nº 009, de 19 de abril de 2012, e</p>
-<p class="cons">CONSIDERANDO o grau de indispensabilidade alcançado pela tecnologia da informação para a realização das funções institucionais e alcance dos objetivos estratégicos do Tribunal de Contas do Estado do Rio Grande do Norte (TCE/RN);</p>
-<p class="cons">CONSIDERANDO a velocidade de processamento de dados e capacidade de armazenamento de informações que a tecnologia da informação proporciona;</p>
-<p class="cons">CONSIDERANDO o grande volume de recursos humanos, financeiros e patrimoniais vinculados à operacionalização e manutenção de bens e serviços de tecnologia da informação;</p>
-<p class="cons">CONSIDERANDO a necessidade de adequar as práticas para controle de segurança da informação do TCE/RN às diretrizes fixadas pela ISO/IEC 29002:2013, da Associação Brasileira de Normas Técnicas (ABNT);</p>
-<p class="cons">CONSIDERANDO a importância de se incentivar uma abordagem coerente na descrição de atividades relativas à gestão de riscos, mediante emprego de terminologia uniforme em processos e estruturas organizacionais, conforme estabelece a ISO Guide 73:2009, da ABNT;</p>
-<p class="cons">CONSIDERANDO os requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão de segurança da informação dentro do contexto da organização, bem como as normas para avaliação e tratamento de riscos, dispostos na ISO/IEC 27001:2013, da ABNT;</p>
-<p class="cons">CONSIDERANDO as diretrizes para práticas de gestão de segurança da informação e normas de segurança da informação para as organizações, incluindo a seleção, a implementação e o gerenciamento de controles, levando em consideração os ambientes de risco da segurança da informação da organização, estabelecidas pela ISO/IEC 27002:2013 e pela ISO/IEC 27005:2018 (ABNT);</p>
-<p class="cons">CONSIDERANDO que a Lei nº 12.527, de 18 de novembro de 2011, mais conhecida como Lei de Acesso à Informação, fixa como diretriz para a administração pública a observância da publicidade como preceito geral e do sigilo como exceção;</p>
-<p class="cons">CONSIDERANDO que a Lei de Acesso à Informação (LAI) consigna que a administração pública deve pautar-se na utilização de meios de comunicação viabilizados pela tecnologia da informação;</p>
-<p class="cons">CONSIDERANDO que a Lei nº 13.709/2018, também chamada de Lei Geral de Proteção de Dados Pessoais (LGPD), dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e privacidade e o livre desenvolvimento da personalidade da pessoa natural;</p>
-<p class="cons">CONSIDERANDO que a LGPD contém normas gerais sobre o tratamento de dados pessoais que são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios;</p>
-<p class="cons">CONSIDERANDO que o Tribunal de Contas do Estado do Rio Grande do Norte deve construir uma cultura organizacional pautada na harmonização entre os preceitos da Lei de Acesso à Informação (LAI) e as normas sobre tratamento de dados pessoais constituídas pela Lei Geral de Proteção de Dados;</p>
-<p class="cons">CONSIDERANDO que se faz necessária a padronização do uso de recursos de Tecnologia da Informação, bem como para o armazenamento de dados em meio digital, para que os processos de trabalho possuam o respaldo de medidas de segurança compatíveis com o grau de relevância de que elas se revestem, em consonância com os princípios da LAI e da LGPD;</p>
-<p class="cons">CONSIDERANDO que a segurança da informação e comunicação, digital ou física, é um tema de permanente acompanhamento e aperfeiçoamento, devendo ser constantemente revista e atualizada, visando à melhoria contínua da qualidade dos processos internos;</p>
-<p>RESOLVE:</p>
-<h2>CAPÍTULO I</h2>
-<h3>SEÇÃO I - Disposições Gerais</h3>
-<p>Art. 1º Fica instituída a Política de Segurança da Informação do Tribunal de Contas do Estado do Rio Grande do Norte (PSI), que observará os princípios, os objetivos e as diretrizes estabelecidos nesta resolução, bem como as disposições constitucionais, legais e regimentais vigentes.</p>
-<p class="par">§1º Membros, servidores, terceirizados, estagiários e quaisquer pessoas que tenham acesso aos ativos de informação pertencentes ao Tribunal de Contas do Estado do Rio Grande do Norte – TCE/RN se sujeitam aos termos estabelecidos nesta resolução e são responsáveis por garantir a segurança dos ativos físicos e lógicos a que tenham acesso em razão do exercício do serviço.</p>
-<p class="par">§ 2º A Diretoria de Informática - DIN deverá atualizar-se em relação às boas práticas de segurança da informação e possíveis vulnerabilidades que possam comprometer a segurança de seus dados, podendo a tarefa ser delegada a funcionários específicos da DIN, a critério do dirigente da unidade.</p>
-<p>Art. 2° Diante de casos não tratados de forma expressa nesta resolução, caberá aos funcionários do TCE/RN buscar a preservação da segurança das informações que estejam sob suas responsabilidades, em consonância com os princípios e normas aplicáveis.</p>
-<p>Art. 3° É dever de todos que possuem acesso aos ativos pertencentes ao TCE/RN zelar pela segurança da informação.</p>
-<h3>SEÇÃO II - Princípios</h3>
-<p>Art. 4º A atividade de segurança institucional será desenvolvida no âmbito do TCE/RN com observância, entre outros, dos seguintes princípios:</p>
-<p class="inciso">I – proteção aos direitos humanos e respeito aos princípios constitucionais da atividade administrativa;</p>
-<p class="inciso">II - orientação de suas práticas pela ética profissional, cultuando-se os valores fundamentais do Estado Democrático de Direito;</p>
-<p class="inciso">III – atuação preventiva e proativa, de modo a possibilitar antecipação às ameaças e ações hostis e sua neutralização;</p>
-<p class="inciso">IV - integração do TCE/RN com outros órgãos essenciais à atividade de segurança institucional e com a Autoridade Nacional de Proteção de Dados (ANPD);</p>
-<p class="inciso">V – orientação da atividade às ameaças reais ou potenciais à Instituição e a seus integrantes, inclusive no que tange aos efeitos de acidentes naturais;</p>
-<p class="inciso">VI – salvaguarda da imagem da instituição, evitando-se sua exposição e exploração midiática negativa;</p>
-<p class="inciso">VII - incentivar a participação colaborativa e coordenada com o objetivo de constituir uma sensação de segurança ativa;</p>
-<p class="inciso">VIII - gestão de riscos voltada para a salvaguarda de ativos do TCE/RN;</p>
-<p class="inciso">IX - proteção da vida, do patrimônio e do meio ambiente.</p>
-<h3>SEÇÃO III - Conceitos</h3>
-<p>Art. 5° Para efeitos desta Resolução são considerados os seguintes conceitos:</p>
-<p class="inciso">I - ativo de informação: recurso utilizado na produção, processamento, armazenamento, transmissão e recuperação da informação, incluindo a própria informação, sistemas de informação, equipamentos de rede, telecomunicações, computadores, dispositivos móveis, dispositivos de armazenamento, programas, banco de dados, locais onde se encontram esses meios e as pessoas que a eles têm acesso;</p>
-<p class="inciso">II - ciclo de vida da informação: conjunto de eventos relacionados à criação ou obtenção, à classificação, à distribuição, ao uso, ao armazenamento, ao descarte ou à guarda permanente da informação;</p>
-<p class="inciso">III - informação: conjunto de dados armazenados em meio eletrônico, nos equipamentos, de propriedade e uso do TCE, devendo a informação ser classificada, segundo o grau de sigilo por ela exigido;</p>
-<p class="inciso">IV - classificação da informação: ação que define o grau de sigilo e os grupos de acesso atribuídos à informação, visando a garantir um nível adequado de proteção;</p>
-<p class="inciso">V - autenticidade: assegura a correspondência entre o autor de determinada informação e a pessoa, processo ou sistema a quem se atribui a autoria;</p>
-<p class="inciso">VI - confidencialidade: garantia de que a informação seja acessada somente pelos usuários ou processos autorizados;</p>
-<p class="inciso">VII - disponibilidade: garantia de que usuários possam ter pronto acesso às informações segundo sua demanda e em conformidade com a política de segurança;</p>
-<p class="inciso">VIII - integridade: garantia de que a informação não foi modificada ou destruída de maneira não autorizada ou acidental, inclusive quanto à origem, trânsito e destino;</p>
-<p class="inciso">IX - não repúdio: garantia de que o emissor da mensagem não irá negar posteriormente a autoria da mensagem ou transação, permitindo a sua identificação;</p>
-<p class="inciso">X - softwares básicos: conjunto de programas que auxiliam os usuários a utilizarem os equipamentos para desempenhar suas tarefas;</p>
-<p class="inciso">XI - incidente em segurança da informação: indício de fraude, sabotagem, desvio, falha ou evento indesejado ou inesperado que tenha potencial para comprometer as operações do negócio e ameaçar a segurança da informação;</p>
-<p class="inciso">XII - informação sigilosa: aquela abrangida pelas hipóteses legais de restrição de acesso ou a classificada como sigilosa, submetida temporariamente à restrição de acesso público, em razão de sua imprescindibilidade para a segurança da sociedade e do Estado;</p>
-<p class="inciso">XIII - gestão de riscos de segurança da informação: conjunto de processos que permite identificar e implementar as medidas de proteção necessárias para minimizar os riscos a que estão sujeitos os seus ativos de informação, e equilibrá-los com os custos operacionais e financeiros envolvidos;</p>
-<p class="inciso">XIV - usuário interno: autoridade, servidor, colaborador terceirizado ou qualquer pessoa que tenha acesso às informações produzidas ou recebidas pelo TCE/RN;</p>
-<p class="inciso">XV - usuário externo: pessoa física ou pessoa jurídica que tenha acesso às informações produzidas ou recebidas pelo TCE/RN e que não seja caracterizada como usuário interno;</p>
-<p class="inciso">XVI - gestor da informação: agente público, titular da direção de setor específico do TCE, que tem como responsabilidade gerar informação para o sistema;</p>
-<p class="inciso">XVII - conta: registro que identifica cada usuário, através do nome e senha personalizados, garantindo-lhe direito de acesso a determinados recursos computacionais do TCE/RN.</p>
-<p class="inciso">XVIII – DIN: Diretoria de Informática do TCE/RN.</p>
-<h3>SEÇÃO IV - Objetivos</h3>
-<p>Art. 6º A política de segurança da informação do TCE/RN tem como objetivos:</p>
-<p class="inciso">I - garantir a autoria do responsável pelo envio da informação;</p>
-<p class="inciso">II - garantir que os ativos de informação, bem como os ativos de processamento e armazenamento de dados sejam protegidos contra acesso não autorizado;</p>
-<p class="inciso">III - garantir que os dados pertencentes ao órgão estejam, sempre que possível e necessário, disponíveis ao solicitante;</p>
-<p class="inciso">IV - garantir a consistência e segurança das informações armazenadas ou transmitidas pelo órgão;</p>
-<p class="inciso">V – promover a conscientização e o comprometimento dos membros, servidores, terceirizados e estagiários do TCE/RN, para a preservação da confidencialidade, da integridade e da disponibilidade das informações, a segurança nas operações e qualidade das atividades desempenhadas;</p>
-<p class="inciso">VI – divulgar informações de interesse público, independentemente de solicitações;</p>
-<p class="inciso">VII – contribuir para a otimização do uso dos meios de comunicação viabilizados pela tecnologia da informação;</p>
-<p class="inciso">VIII – fomentar o desenvolvimento da cultura da transparência na administração pública;</p>
-<p class="inciso">IX – contribuir para o desenvolvimento do controle social da administração pública.</p>
-<p class="par">Parágrafo único. Os objetivos da política de segurança da informação deverão estar alinhados ao plano estratégico do órgão e ao plano diretor de tecnologia da informação do TCE/RN.</p>
-<h2>CAPÍTULO II — DA INFORMAÇÃO</h2>
-<h3>SEÇÃO I - Da Classificação da Informação</h3>
-<p>Art. 7° A classificação da informação tem por objetivo assegurar que a informação receba um nível adequado de proteção.</p>
-<p class="par">Parágrafo único. A informação será classificada para indicar a necessidade, as prioridades e o nível esperado de proteção quanto ao tratamento da informação durante todo o seu ciclo de vida.</p>
-<p>Art. 8º A classificação da informação quanto ao grau de sigilo se dará na forma do artigo 3° da Resolução n° 015/2012-TCE, que dispõe sobre o acesso à informação e a aplicação da Lei de Acesso à Informação no âmbito do TCE/RN.</p>
-<p class="par">Parágrafo único. Poderá ser considerada sigilosa qualquer informação que:</p>
-<p class="inciso">I - provoque riscos à vida, à honra, a segurança ou saúde da população;</p>
-<p class="inciso">II - provoque riscos à defesa, economia ou relações internacionais do Estado;</p>
-<p class="inciso">III - provoque assimetria competitiva ou privilégio entre pessoas jurídicas;</p>
-<p class="inciso">IV - exponha o TCE/RN a ataques ou fraudes;</p>
-<p class="inciso">V - seja relativa a autorizações, estudos e fiscalizações que componham processo não concluído;</p>
-<p class="inciso">VI – notícia de fato apresentada por meio de denúncia ou representação, ainda não conhecida pelo Conselheiro Relator, nos termos dos parágrafos § 1° e 2° do art. 80 da Lei Orgânica do TCE/RN.</p>
-<p>Art. 9º A Unidade de Informações Estratégicas do Tribunal de Contas do Estado do Rio Grande do Norte, denominada Coordenadoria de Informações Estratégicas para o Controle Externo - CIEX, tem competência para classificar suas informações de acordo com o grau de sigilo da produção de conhecimento.</p>
-<p>Art. 10 Para os fins desta Resolução, considera-se informação pessoal o dado relacionado à pessoa identificada ou identificável, à vida privada, à honra ou à imagem.</p>
-<p class="par">Parágrafo único. As disposições deste artigo aplicam-se, no que couber, às pessoas jurídicas.</p>
-<h3>SEÇÃO II - Das Obrigações do Gestor da Informação</h3>
-<p>Art. 11 São responsabilidades dos gestores da informação, no que concerne às informações sob sua gestão, produzidas ou custodiadas pelo TCE/RN:</p>
-<p class="inciso">I - manter atualizada a relação dos usuários que tenham acesso às informações sob sua responsabilidade;</p>
-<p class="inciso">II - coordenar as atividades de identificação, classificação e enquadramento das informações;</p>
-<p class="inciso">III - garantir o cumprimento das normas e procedimentos relativos à segurança das informações;</p>
-<p class="inciso">IV - definir procedimentos e grupos de acesso, observados os dispositivos legais e regimentais relativos ao sigilo e a outros requisitos de segurança pertinentes;</p>
-<p class="inciso">V - conscientizar usuários internos em relação aos conceitos e às práticas de segurança da informação;</p>
-<p class="inciso">VI - tomar as medidas administrativas necessárias para que sejam aplicadas ações corretivas nos casos de comprometimento da segurança da informação por parte dos usuários internos;</p>
-<p class="inciso">VII - rotular a informação sigilosa em matéria de sua competência ou inerente à sua área de atuação, enquadrada em hipótese legal de sigilo ou de segredo de justiça.</p>
-<h3>SEÇÃO III - Do Ciclo de Vida da Informação</h3>
-<p>Art. 12 O ciclo de vida da informação é composto pelas etapas de manuseio, armazenamento, transporte e descarte, assim caracterizadas:</p>
-<p class="inciso">I - manuseio: momento em que a informação é criada e manipulada, seja sob a forma física ou eletrônica;</p>
-<p class="inciso">II - armazenamento: fase em que há o armazenamento propriamente dito da informação, seja em papel, arquivo físico, banco de dados ou qualquer outro tipo de mídia;</p>
-<p class="inciso">III - transporte: etapa em que a informação é transportada, seja em papel, mídia ou por meio remoto em uma rede de computadores;</p>
-<p class="inciso">IV - descarte: momento em que a informação é descartada, em formato físico ou eletrônico.</p>
-<p>Art. 13 Caberá a cada gestor de informação tomar as devidas providências em relação ao ciclo de vida da informação que se encontre em seu setor.</p>
-<h3>SEÇÃO IV - Do Tratamento dos Ativos de Informação</h3>
-<p>Art. 14 As unidades que compõem o TCE/RN e o Ministério Público de Contas deverão atribuir a um ou mais servidores a responsabilidade de classificar e documentar seus ativos de acordo com seu valor, sensibilidade, criticidade e requisitos legais.</p>
-<p class="par">§ 1º A atribuição dos responsáveis pela classificação e documentação do ativo deve ser feita de forma hábil e, sempre que possível, após criação ou transferência do respectivo ativo à unidade ou órgão.</p>
-<p class="par">§ 2º O tempo máximo para a atribuição dos responsáveis pela classificação e documentação do ativo será tratado em norma específica.</p>
-<p>Art. 15 Após a devida classificação, os ativos deverão ser atribuídos a proprietários, que ficarão responsáveis pelo seu ciclo de vida e sua segurança, mantendo a respectiva documentação atualizada, e revisando-a sempre que houver mudanças que justifiquem a sua atualização, nos termos definidos em norma complementar.</p>
-<p class="par">Parágrafo único. O proprietário atribuído ao ativo não tem direitos de propriedade sobre o ativo.</p>
-<p>Art. 16 As instruções para a classificação, documentação, rotulamento e tratamento dos ativos de forma adequada serão objeto de norma específica.</p>
-<p>Art. 17 Fica sob a responsabilidade da sua respectiva direção, do proprietário ou de quem esteja com a responsabilidade sobre o ativo, autorizar ou rejeitar a sua retirada do estabelecimento.</p>
-<p class="par">§ 1º A autorização da retirada do ativo será feita para permitir a continuidade das atividades do órgão.</p>
-<p class="par">§ 2º Apenas servidores do tribunal poderão retirar, com a devida autorização, os ativos do estabelecimento.</p>
-<p class="par">§ 3º O servidor realizará a devolução do ativo ao órgão quando cessarem os motivos para a retirada ou no caso de encerramento de seu vínculo com o TCE/RN.</p>
-<p>Art. 18 Os ativos de informação e os recursos de armazenamento e processamento de dados deverão ser utilizados de forma aceitável, nos termos definidos em norma complementar.</p>
-<p>Art. 19 A norma definirá as regras para a utilização de recursos computacionais pessoais dos funcionários dentro das instalações do tribunal ou em regime de teletrabalho, no exercício das funções.</p>
-<h3>SEÇÃO V - Do Gerenciamento de Eventos</h3>
-<p>Art. 20 Procedimentos para identificar e tratar os eventos decorrentes dos equipamentos de armazenamento e processamento de dados devem ser implementados e documentados, visando evitar que surjam incidentes que possam comprometer a disponibilidade ou o desempenho dos serviços de TI do TCE.</p>
-<p class="par">Parágrafo único. A classificação dos eventos de acordo com a sua criticidade, bem como os procedimentos necessários para tratá-los de forma apropriada serão definidos em norma específica.</p>
-<h3>SEÇÃO VI - Do Gerenciamento de Incidentes de Rede</h3>
-<p>Art. 21 A DIN manterá um núcleo de gerenciamento de incidentes que deverá garantir a restauração dos serviços de TI de forma hábil, nos prazos e termos definidos em norma, minimizando eventuais efeitos negativos nos processos do órgão.</p>
-<h3>SEÇÃO VII - Do Gerenciamento de Problemas</h3>
-<p>Art. 22 A DIN manterá um núcleo de gerenciamento de problemas, que visa minimizar a interrupção nos serviços de TI, buscando reduzir a quantidade de incidentes e evitar sua recorrência.</p>
-<p class="par">§ 1º O núcleo de gerenciamento de problemas analisará as causas dos incidentes recorrentes ou de grande impacto para os serviços de TI.</p>
-<p class="par">§ 2º Será mantido um banco de dados de erros conhecidos que conterá todas as soluções produzidas pelo núcleo de gerenciamento de problemas.</p>
-<p class="par">§ 3º Os procedimentos necessários para analisar e tratar os problemas serão dispostos em norma específica.</p>
-<h3>SEÇÃO VIII - Da Gestão de Riscos</h3>
-<p>Art. 23 O TCE/RN deverá elaborar um plano de gerenciamento de riscos que objetive mensurar ameaças, riscos e seus potenciais danos à organização, de modo a fornecer subsídios para melhoria da segurança institucional.</p>
-<p class="par">Parágrafo único. Critérios para determinar quais riscos são aceitáveis e quais necessitam de controles especiais serão estabelecidos de acordo com os possíveis impactos ao tribunal.</p>
-<h3>SEÇÃO IX - Da Gestão de Continuidade</h3>
-<p>Art. 24 Serão adotados procedimentos emergenciais e formais, através da definição de um Sistema de Gestão de Continuidade de Negócios (SGCN), para a eventualidade de ocorrência de algum incidente de segurança da informação que possa causar interrupção na continuidade de processos organizacionais decorrentes de desastres ou falhas em recursos de tecnologia da informação e comunicação neste tribunal de contas.</p>
-<p>Art. 25 O Sistema de Gestão de Continuidade de Negócios se responsabiliza pela realização das cópias de segurança dos ativos de informação para proteção contra desastres, que devem ser hospedadas em locais próprios, acessíveis e distintos das instalações do tribunal.</p>
-<h3>SEÇÃO X - Da Auditoria e Conformidade</h3>
-<p>Art. 26 Todos os ativos de informação deste tribunal poderão ser objetos de auditoria por equipe designada pela direção de TI, de acordo com os termos definidos em norma específica.</p>
-<h3>SEÇÃO XI - Dos Controles de Acessos</h3>
-<p>Art. 27 A política de controle de acessos terá como objetivo limitar os acessos às informações e aos recursos de processamento e armazenamento de informação e, através dos termos dispostos nesta política e em norma específica, tratará dos seguintes aspectos:</p>
-<p class="inciso">I - controles de acesso físico e lógico às informações sigilosas;</p>
-<p class="inciso">II - definição dos papéis que possuem acesso privilegiado;</p>
-<p class="inciso">III - requisitos para autorização formal de acesso às informações fiscais;</p>
-<p class="inciso">IV - procedimentos para remoção e atribuição de privilégios de usuários;</p>
-<p class="inciso">V - controles sobre o gerenciamento das senhas de acesso, incluindo, dentre outros aspectos, o tempo de validade, os parâmetros mínimos de qualidade, as condições para os provimentos de senhas temporárias e as condições de bloqueio;</p>
-<p class="inciso">VI - requisitos para acesso às redes e aos serviços de rede;</p>
-<p class="inciso">VII - definição de termos sobre o controle de entrada física nas instalações, escritórios e salas do TCE de acordo com seus níveis de criticidade.</p>
-<p>Art. 28 O acesso aos ativos de informação, físico e de software, assim como o acesso às áreas físicas protegidas devem ser permitidos apenas a pessoas devidamente autorizadas, de acordo com os termos definidos em norma.</p>
-<p>Art. 29 Os servidores do Tribunal de Contas que tiverem acesso a dados sigilosos constantes das declarações de bens e rendimentos recebidas deverão assinar termo de confidencialidade relativo a esses dados.</p>
-<p>Art. 30 Os servidores ou quaisquer pessoas que, em virtude do exercício de cargo, função ou emprego público, tenham acesso às informações fiscais relativas às autoridades e aos servidores públicos, sujeitam-se às penalidades prescritas nesta resolução por infração às disposições pertinentes ao dever de sigilo sobre as informações de natureza fiscal e patrimonial de terceiros.</p>
-<p>Art. 31 Os dados conveniados entre o Núcleo de Informações Estratégicas para o Controle Externo com qualquer outro órgão estarão sujeitos aos termos do acordo de cooperação assinado para fins de controle de acesso desses dados.</p>
-<p>Art. 32 Todos os servidores devem ser orientados a manter a confidencialidade das informações de autenticação que a e pertencem.</p>
-<p class="par">§ 1º A senha de autenticação deve possuir um padrão mínimo de qualidade de acordo com as regras dispostas em norma específica, devendo ser alterada toda vez que a sua confidencialidade for comprometida.</p>
-<p class="par">§ 2º Os usuários ficam responsáveis pelos danos causados pela divulgação não autorizada das informações de autenticação que a ele pertencem.</p>
-<p class="par">§ 3º As informações de autenticação não devem ser anotadas, a menos que seja feito por procedimento seguro e aprovado.</p>
-<p>Art. 33 O acesso relacionado aos sistemas corporativos será provido via perfis de trabalho ou autorizado quando possível pelo seu responsável.</p>
-<p>Art. 34 O cadastro de usuário interno para utilização dos recursos de TI será realizado pela DIN mediante requisição do chefe da unidade organizacional.</p>
-<p>Art. 35 Após o fim do vínculo do usuário interno com o TCE/RN, suas contas de usuário serão cessadas e todos os seus direitos de acesso serão igualados aos usuários externos do tribunal.</p>
-<p>Art. 36 Serão definidos perímetros de segurança física a partir dos quais devem haver níveis de proteção específicos contra acesso indevido, de acordo com a criticidade dos recursos que a eles pertencem.</p>
-<p class="par">Parágrafo único. Procedimentos para proteção contra acesso físico não autorizado serão estabelecidos de acordo com os perímetros de segurança física definidos.</p>
-<p>Art. 37 Os locais de entrega e carregamento de materiais físicos devem ser controlados e separados das demais áreas restritas do tribunal.</p>
-<h3>SEÇÃO XII - Do Tratamento dos Dados Pessoais</h3>
-<p>Art. 38 O TCE/RN deverá de forma clara e objetiva especificar a finalidade e o método utilizado no tratamento dos dados pessoais para seu titular.</p>
-<p>Art. 39 Somente os dados pessoais estritamente necessários ao atendimento da finalidade pública e ao desempenho das funções típicas do Tribunal de Contas serão tratados.</p>
-<p class="par">§ 1º Nas hipóteses nas quais o Tribunal de Contas estiver desempenhando funções atípicas, distintas daquelas previstas no artigo 71 da Constituição Federal, os dados pessoais de pessoas naturais deverão ser tratados de acordo com as bases legais indicadas na Lei Federal n. 13709/2018.</p>
-<p class="par">§ 2º O consentimento do titular só será necessário quando desempenhadas funções atípicas e nas específicas situações em que a Lei Geral de Proteção de Dados Pessoais exigir.</p>
-<p>Art. 40 O TCE deverá garantir a integridade dos dados pessoais, disponibilizando o direito ao titular de conferir a exatidão, clareza e atualização desses dados de acordo com a necessidade e cumprimento da finalidade do tratamento.</p>
-<p>Art. 41 O TCE deverá garantir a proteção dos dados pessoais em quaisquer meios, e não apenas os digitais.</p>
-<p>Art. 42 É vedado o uso de dados pessoais com a intenção de discriminar ou promover qualquer tipo de abuso contra os respectivos titulares ou contra qualquer outra pessoa.</p>
-<p>Art. 43 Todos os sistemas do TCE que coletam informações pessoais deverão ter seu termo de uso e política de privacidade destacando sua finalidade e consentimento dos titulares dos dados.</p>
-<p>Art. 44 Em caso de compartilhamento de dados com outros órgãos e entes públicos, o Tribunal de Contas deverá estar atento às determinações contidas em específica legislação de regência sobre proteção de dados pessoais.</p>
-<p>Art. 45 Os servidores e sistemas do TCE devem possuir criptografia, controle de sessão e logs, de modo a prevenir e realizar auditorias em caso de vazamento de dados pessoais para terceiros.</p>
-<p>Art. 46 Em caso de vazamento de dados pessoais armazenados pelo TCE,é obrigatório que o titular dos dados seja avisado sobre o incidente.</p>
-<h3>SEÇÃO XIII - Do Correio Eletrônico Institucional</h3>
-<p>Art. 47 O uso do serviço de correio eletrônico, através do endereço institucional do TCE/RN, deve ser exclusivo para realização de trabalhos operacionais do tribunal.</p>
-<p>Art. 48 Todos os membros e servidores internos do tribunal poderão solicitar a DIN um endereço de correio eletrônico institucional para fins de comunicação e trabalho.</p>
-<p>Art. 49 Todas as comunicações por meio de correio eletrônico que sejam feitas em nome do TCE/RN deverão, sempre que possível, utilizar endereços institucionais.</p>
-<p>Art. 50 As mensagens transmitidas entre os servidores deverão, prioritariamente, ter como destinatário endereços institucionais.</p>
-<p>Art. 51 Regras para a utilização segura do serviço de correio eletrônico, limitação de espaço de armazenamento, cópias de segurança, responsabilidades, direitos e penalidades referentes ao uso dessas contas serão especificadas através de norma complementar.</p>
-<h3>SEÇÃO XIV - Do Acesso à Internet</h3>
-<p>Art. 52 Todos os funcionários do TCE/RN terão acesso à Internet, ficando restritos aos endereços permitidos pelas regras dispostas em norma complementar.</p>
-<p>Art. 53 Cabe à DIN implantar os controles de acesso e mecanismos de auditoria que garantam o monitoramento do acesso à internet pela rede corporativa do TCE/RN.</p>
-<p>Art. 54 Os usuários são responsáveis pelos conteúdos dos endereços acessados por eles.</p>
-<h3>SEÇÃO XV - Da Publicação de Informação</h3>
-<p>Art. 55 A Assessoria de Comunicação Social, a Escola de Contas do TCE/RN e a Secretaria das Sessões possuem competência para fazer publicações sobre notícias e transmissão ao vivo de eventos.</p>
-<p class="par">Parágrafo único. O Presidente do TCE/RN poderá conceder autorização a outras unidades administrativas para que realizem publicação de notícias e transmissão ao vivo de eventos.</p>
-<p>Art. 56 A utilização de perfis institucionais mantidos em redes sociais com o objetivo de divulgar ou compartilhar informações do TCE/RN deverá estar em consonância tanto com a Política de Segurança da Informação quanto com os objetivos estratégicos da instituição.</p>
-<h3>SEÇÃO XVI - Da Segurança em Recursos Humanos</h3>
-<p>Art. 57 As obrigações contratuais estabelecidas aos novos servidores, estagiários e terceirizados, ou aos que decorrerem de renovação de contrato, devem estar em consonância com esta política de segurança da informação.</p>
-<p>Art. 58 Os membros, servidores, estagiários e terceirizados do TCE/RN observarão, no exercício das suas funções, os padrões éticos de conduta que lhes são inerentes, norteando-se pelos princípios da transparência, prudência, integridade profissional e pessoal, dignidade, probidade, lisura no que concerne à relação entre suas atividades públicas e particulares garantindo assim a preservação da segurança da informação e caráter profissional inerente ao exercício da função pública.</p>
-<p class="par">§ 1º Os membros, servidores, estagiários e terceirizados do TCE/RN conduzirão suas atividades de maneira a prevenir a violação das informações e a continuidade dos serviços.</p>
-<p class="par">§ 2º Em caso de desligamento do servidor, terceirizado ou estagiário, por iniciativa própria ou não, os direitos de acesso serão removidos e as senhas compartilhadas deverão ser alteradas.</p>
-<p class="par">§ 3° Em caso de demissão, as ações de segurança deverão ser feitas em paralelo ao ato de formalização do desligamento.</p>
-<h2>CAPÍTULO III — ATUALIZAÇÕES</h2>
-<p>Art. 59 O TCE/RN instituirá Comissão de Segurança da Informação (CSI) de caráter permanente, que tem por finalidade formular e conduzir diretrizes impostas por esta política, analisar periodicamente sua efetividade, propor normas e mecanismos institucionais para melhoria contínua, bem como assessorar a unidade organizacional responsável pela segurança da informação.</p>
-<p class="par">§ 1º É de competência da CSI a revisão, no máximo a cada 5 (cinco) anos ou sempre que se fizer necessário, em função de alterações na legislação pertinente de modo a atender aos novos requisitos corporativos.</p>
-<p class="par">§ 2° Fica sob a responsabilidade da CSI a criação de termos específicos, em norma complementar, que definirão a forma adequada da realização de cópias de segurança dos ativos de informação pertencentes ao órgão.</p>
-<p class="par">§ 3º A composição e os regulamentos da CSI serão estabelecidos por ato da Presidência.</p>
-<h2>CAPÍTULO IV — PENALIDADES</h2>
-<p>Art. 60 Ações que violem esta Política ou quaisquer de suas diretrizes, normas ou procedimentos, ou que infrinjam os controles de segurança da informação e comunicações deverão ser comunicados à Corregedoria do TCE/RN, nos termos do § 1° do art. 15 da Lei Orgânica do TCE/RN, para que sejam devidamente apuradas;</p>
-<p class="par">Parágrafo único. Caberá à Corregedoria do TCE/RN aplicar aos responsáveis as penalidades dispostas no art. 138, incisos I a VI, da Lei Complementar Estadual nº 122, de 30 de junho de 1994, que dispõe sobre o regime jurídico único dos servidores públicos civis do Estado e das autarquias e fundações públicas estaduais, e institui o respectivo Estatuto e dá outras providências.</p>
-<h2>CAPÍTULO V — DISPOSIÇÕES FINAIS</h2>
-<p>Art. 61 A presente Política de Segurança da Informação não exclui a necessidade de que o TCE/RN institua Política de Proteção de Dados Pessoais, em conformidade com a Lei de Acesso à Informação e com a Lei Geral de Proteção de Dados.</p>
-<p class="par">Parágrafo único. Na Política de Proteção de Dados Pessoais, o TCE/RN designará agente encarregado dos dados, com a função de atuar como canal de comunicação entre a instituição, o titular dos dados e a ANPD.</p>
-<p>Art. 62 Casos omissos serão decididos pelo Presidente do Tribunal de Contas.</p>
-<p>Art. 63 Esta resolução entra em vigor na data de sua publicação.</p>
-<p>Sala das Sessões do Pleno, em Natal (RN), 08 de setembro de 2021.</p>
-<p class="assinatura">Conselheiro PAULO ROBERTO CHAVES ALVES</p>
-<p class="cargo">Presidente</p>
-<p class="assinatura">Conselheiro RENATO COSTA DIAS</p>
-<p class="cargo">Vice-Presidente</p>
-<p class="assinatura">Conselheiro TARCÍSIO COSTA</p>
-<p class="assinatura">Conselheira MARIA ADÉLIA DE ARRUDA SALES SOUSA</p>
-<p class="assinatura">Conselheiro CARLOS THOMPSON COSTA FERNANDES</p>
-<p class="assinatura">Conselheiro FRANCISCO POTIGUAR CAVALCANTI JUNIOR</p>
-<p class="assinatura">Conselheiro ANTÔNIO GILBERTO DE OLIVEIRA JALES</p>
-<p class="centro">Fui presente:</p>
-<p class="assinatura">Bacharel THIAGO MARTINS GUTERRES</p>
-<p class="cargo">Procurador-Geral do Ministério Público junto ao Tribunal de Contas do Estado</p>
-</main>
+  <main class="pagina">
+    <header class="cabecalho">
+      <div class="logo"><img src="/Content/img/politica_privacidade_logo.jpg" alt="Tribunal de Contas do Estado do Rio Grande do Norte"></div>
+      <p class="minuta" style="text-indent:0;text-align:left">Minuta de Política de Segurança da Informação</p>
+    </header>
+    <h1 class="titulo">RESOLUÇÃO Nº 021/2021-TCE/RN, 08 DE SETEMBRO DE 2021</h1>
+    <p class="ementa">Institui a Política de Segurança da Informação no âmbito do Tribunal de Contas do Estado do Rio Grande do Norte - TCE/RN e dá outras providências.</p>
+    <p><strong>O TRIBUNAL DE CONTAS DO ESTADO DO RIO GRANDE DO NORTE</strong>, no uso das atribuições que lhe confere o disposto no inciso XIX do art. 7º da Lei complementar Estadual nº 464, de 05 de janeiro de 2012, e o inciso IX do art. 12 do seu RegimentoInterno, aprovado pela Resolução nº 009, de 19 de abril de 2012, e</p>
+    <p><strong>CONSIDERANDO</strong> o grau de indispensabilidade alcançado pela tecnologia da informação para a realização das funções institucionais e alcance dos objetivos estratégicos do Tribunal de Contas do Estado do Rio Grande do Norte (TCE/RN);</p>
+    <p><strong>CONSIDERANDO</strong> a velocidade de processamento de dados e capacidade de armazenamento de informações que a tecnologia da informação proporciona;</p>
+    <p><strong>CONSIDERANDO</strong> o grande volume de recursos humanos, financeiros e patrimoniais vinculados à operacionalização e manutenção de bens e serviços de tecnologia da informação;</p>
+    <p><strong>CONSIDERANDO</strong> a necessidade de adequar as práticas para controle de segurança da informação do TCE/RN às diretrizes fixadas pela ISO/IEC 29002:2013, da Associação Brasileira de Normas Técnicas (ABNT);</p>
+    <p><strong>CONSIDERANDO</strong> a importância de se incentivar uma abordagem coerente na descrição de atividades relativas à gestão de riscos, mediante emprego de terminologia uniforme em processos e estruturas organizacionais, conforme estabelece a ISO Guide73:2009, da ABNT;</p>
+    <p><strong>CONSIDERANDO</strong> os requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão de segurança da informação dentro do contexto da organização, bem como as normas para avaliação e tratamento de riscos, dispostos na ISO/IEC 27001:2013, da ABNT;</p>
+    <p><strong>CONSIDERANDO</strong> as diretrizes para práticas de gestão de segurança da informação e normas de segurança da informação para as organizações, incluindo a seleção, a implementação e o gerenciamento de controles, levando em consideração os ambientes de risco da segurança da informação da organização, estabelecidas pela ISO/IEC 27002:2013 e pela ISO/IEC 27005:2018 (ABNT);</p>
+    <p><strong>CONSIDERANDO</strong> que a Lei nº 12.527, de 18 de novembro de 2011, mais conhecida como Lei de Acesso à Informação, fixa como diretriz para a administração pública a observância da publicidade como preceito geral e do sigilo como exceção;</p>
+    <p><strong>CONSIDERANDO</strong> que a Lei de Acesso à Informação (LAI) consigna que a administração pública deve pautar-se na utilização de meios de comunicação viabilizados pela tecnologia da informação;</p>
+    <p><strong>CONSIDERANDO</strong> que a Lei nº 13.709/2018, também chamada de Lei Geral de Proteção de Dados Pessoais (LGPD), dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e privacidade e o livre desenvolvimento da personalidade da pessoa natural;</p>
+    <p><strong>CONSIDERANDO</strong> que a LGPD contém normas gerais sobre o tratamento de dados pessoais que são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios;</p>
+    <p><strong>CONSIDERANDO</strong> que o Tribunal de Contas do Estado do Rio Grande do Norte deve construir uma cultura organizacional pautada na harmonização entre os preceitos da Lei de Acesso à Informação (LAI) e as normas sobre tratamento de dados pessoais constituídas pela Lei Geral de Proteção de Dados;</p>
+    <p><strong>CONSIDERANDO</strong> que se faz necessária a padronização do uso de recursos de Tecnologia da Informação, bem como para o armazenamento de dados em meio digital, para que os processos de trabalho possuam o respaldo de medidas de segurança compatíveis com o grau de relevância de que elas se revestem, em consonância com os princípios da LAI e da LGPD;</p>
+    <p><strong>CONSIDERANDO</strong> que asegurança da informação e comunicação, digital ou física, é um tema de permanente acompanhamento e aperfeiçoamento, devendo ser constantemente revista e atualizada, visando à melhoria contínua da qualidade dos processos internos;</p>
+    <p class="resolve"><strong>RESOLVE:</strong></p>
+    <h2 class="secao">CAPÍTULO I</h2>
+    <h2 class="secao">SEÇÃO I - Disposições Gerais</h2>
+    <p>Art. 1º Fica instituída a Política de Segurança da Informação do Tribunal de Contas do Estado do Rio Grande do Norte (PSI), que observará os princípios, os objetivos e as diretrizes estabelecidos nesta resolução, bem como as disposições constitucionais, legais e regimentais vigentes.</p>
+    <p>§1º Membros, servidores, terceirizados, estagiários e quaisquer pessoas que tenham acesso aos ativos de informação pertencentes ao Tribunal de Contas do Estado do Rio Grande do Norte – TCE/RN se sujeitam aos termos estabelecidos nesta resolução e são responsáveis por garantir a segurança dos ativos físicos e lógicos a que tenham acesso em razão do exercício do serviço.</p>
+    <p>§ 2º A Diretoria de Informática - DIN deverá atualizar-se em relação às boas práticas de segurança da informação e possíveis vulnerabilidades que possam comprometer a segurança de seus dados, podendo a tarefa ser delegada a funcionários específicos da DIN, a critério do dirigente da unidade.</p>
+    <p>Art. 2° Diante de casos não tratados de forma expressa nesta resolução, caberá aos funcionários do TCE/RN buscar a preservação da segurança das informações que estejam sob suas responsabilidades, em consonância com os princípios e normas aplicáveis.</p>
+    <p>Art. 3° É dever de todos que possuem acesso aos ativos pertencentes ao TCE/RN zelar pela segurança da informação.</p>
+    <h2 class="secao">SEÇÃO II - Princípios</h2>
+    <p>Art. 4º A atividade de segurança institucional será desenvolvida no âmbito do TCE/RN com observância, entre outros, dos seguintes princípios:</p>
+    <p>I – proteção aos direitos humanos e respeito aos princípios constitucionais da atividade administrativa;</p>
+    <p>II - orientação de suas práticas pela ética profissional, cultuando-se os valores fundamentais do Estado Democrático de Direito;</p>
+    <p>III – atuação preventiva e proativa, de modo a possibilitar antecipação às ameaças e ações hostis e sua neutralização;</p>
+    <p>IV - integração do TCE/RN com outros órgãos essenciais à atividade de segurança institucional e com a Autoridade Nacional de Proteção de Dados (ANPD);</p>
+    <p>V – orientação da atividade às ameaças reais ou potenciais à Instituição e a seus integrantes, inclusive no que tange aos efeitos de acidentes naturais;</p>
+    <p>VI – salvaguarda da imagem da instituição, evitando-se sua exposição e exploração midiática negativa;</p>
+    <p>VII - incentivar a participação colaborativa e coordenada com o objetivo de constituir uma sensação de segurança ativa;</p>
+    <p>VIII - gestão de riscos voltada para a salvaguarda de ativos do TCE/RN;</p>
+    <p>IX - proteção da vida, do patrimônio e do meio ambiente.</p>
+    <h2 class="secao">SEÇÃO III - Conceitos</h2>
+    <p>Art. 5° Para efeitos desta Resolução são considerados os seguintes conceitos:</p>
+    <p>I - ativo de informação: recurso utilizado na produção, processamento, armazenamento, transmissão e recuperação da informação, incluindo a própria informação, sistemas de informação, equipamentos de rede, telecomunicações, computadores, dispositivos móveis, dispositivos de armazenamento, programas, banco de dados, locais onde se encontram esses meios e as pessoas que a eles têm acesso;</p>
+    <p>II - ciclo de vida da informação: conjunto de eventos relacionados à criação ou obtenção, à classificação, à distribuição, ao uso, ao armazenamento, ao descarte ou à guarda permanente da informação;</p>
+    <p>III - informação: conjunto de dados armazenados em meio eletrônico, nos equipamentos, de propriedade e uso do TCE, devendo a informação ser classificada, segundo o grau de sigilo por ela exigido;</p>
+    <p>IV - classificação da informação: ação que define o grau de sigilo e os grupos de acesso atribuídos à informação, visando a garantir um nível adequado de proteção;</p>
+    <p>V - autenticidade: assegura a correspondência entre o autor de determinada informação e a pessoa, processo ou sistema a quem se atribui a autoria;</p>
+    <p>VI - confidencialidade: garantia de que a informação seja acessada somente pelos usuários ou processos autorizados;</p>
+    <p>VII - disponibilidade: garantia de que usuários possam ter pronto acesso às informações segundo sua demanda e em conformidade com a política de segurança;</p>
+    <p>VIII - integridade: garantia de que a informação não foi modificada ou destruída de maneira não autorizada ou acidental, inclusive quanto à origem, trânsito e destino;</p>
+    <p>IX - não repúdio: garantia de que o emissor da mensagem não irá negar posteriormente a autoria da mensagem ou transação, permitindo a sua identificação;</p>
+    <p>X - <em>softwares</em> básicos: conjunto de programas que auxiliam os usuários a utilizarem os equipamentos para desempenhar suas tarefas;</p>
+    <p>XI - incidente em segurança da informação: indício de fraude, sabotagem, desvio, falha ou evento indesejado ou inesperado que tenha potencial para comprometer as operações do negócio e ameaçar a segurança da informação;</p>
+    <p>XII - informação sigilosa: aquela abrangida pelas hipóteses legais de restrição de acesso ou a classificada como sigilosa, submetida temporariamente à restrição de acesso público, em razão de sua imprescindibilidade para a segurança da sociedade e do Estado;</p>
+    <p>XIII - gestão de riscos de segurança da informação: conjunto de processos que permite identificar e implementar as medidas de proteção necessárias paraminimizar os riscos a que estão sujeitos os seus ativos de informação, e equilibrá-los com os custos operacionais e financeiros envolvidos;</p>
+    <p>XIV - usuário interno: autoridade, servidor, colaborador terceirizado ou qualquer pessoa que tenha acesso às informações produzidas ou recebidas pelo TCE/RN;</p>
+    <p>XV - usuário externo: pessoa física ou pessoa jurídica que tenha acesso às informações produzidas ou recebidas pelo TCE/RN e que não seja caracterizada como usuário interno;</p>
+    <p>XVI - gestor da informação: agente público, titular da direção de setor específico do TCE, que tem como responsabilidade gerar informação para o sistema;</p>
+    <p>XVII - conta: registro que identifica cada usuário, através do nome e senha personalizados, garantindo-lhe direito de acesso a determinados recursos computacionais do TCE/RN.</p>
+    <p>XVIII – DIN: Diretoria de Informática do TCE/RN.</p>
+    <h2 class="secao">SEÇÃO IV - Objetivos</h2>
+    <p>Art. 6º A política de segurança da informação do TCE/RN tem como objetivos:</p>
+    <p>I - garantir a autoria do responsável pelo envio da informação;</p>
+    <p>II - garantir que os ativos de informação, bem como os ativos de processamento e armazenamento de dados sejam protegidos contra acesso não autorizado;</p>
+    <p>III - garantir que os dados pertencentes ao órgão estejam, sempre que possível e necessário, disponíveis ao solicitante;</p>
+    <p>IV - garantir a consistência e segurança das informações armazenadas ou transmitidas pelo órgão;</p>
+    <p>V – promover a conscientização e o comprometimento dos membros, servidores, terceirizados e estagiários do TCE/RN, para a preservação da confidencialidade, da integridade e da disponibilidade das informações, a segurança nas operações e qualidade das atividades desempenhadas;</p>
+    <p>VI – divulgar informações de interesse público, independentemente de solicitações;</p>
+    <p>VII – contribuir para a otimização do uso dos meios de comunicação viabilizados pela tecnologia da informação;</p>
+    <p>VIII – fomentar o desenvolvimento da cultura da transparência na administração pública;</p>
+    <p>IX – contribuir para o desenvolvimento do controle social da administração pública.</p>
+    <p>Parágrafo único. Os objetivos da política de segurança da informação deverão estar alinhados ao plano estratégico do órgão e ao plano diretor de tecnologia da informação do TCE/RN.</p>
+    <h2 class="secao">CAPÍTULO II<br>DA INFORMAÇÃO</h2>
+    <h2 class="secao">SEÇÃO I - Da Classificação da Informação</h2>
+    <p>Art. 7° A classificação da informação tem por objetivo assegurar que a informação receba um nível adequado de proteção.</p>
+    <p>Parágrafo único. A informação será classificada para indicar a necessidade, as prioridades e o nível esperado de proteção quanto ao tratamento da informação durante todo o seu ciclo de vida.</p>
+    <p>Art. 8º A classificação da informação quanto ao grau de sigilo se dará na forma do artigo 3° da Resolução n° 015/2012-TCE, que dispõe sobre o acesso à informação e a aplicação da Lei de Acesso à Informação no âmbito do TCE/RN.</p>
+    <p>Parágrafo único. Poderá ser considerada sigilosa qualquer informação que:</p>
+    <p>I - provoque riscos à vida, à honra, a segurança ou saúde da população;</p>
+    <p>II - provoque riscos à defesa, economia ou relações internacionais do Estado;</p>
+    <p>III - provoque assimetria competitiva ou privilégio entre pessoas jurídicas;</p>
+    <p>IV - exponha o TCE/RN a ataques ou fraudes;</p>
+    <p>V - seja relativa a autorizações, estudos e fiscalizações que componham processo não concluído;</p>
+    <p>VI – notícia de fato apresentada por meio de denúncia ou representação, ainda não conhecida pelo Conselheiro Relator, nos termos dos parágrafos § 1° e 2° do art. 80 da Lei Orgânica do TCE/RN.</p>
+    <p>Art. 9º A Unidade de Informações Estratégicas do Tribunal de Contas do Estado do Rio Grande do Norte, denominada Coordenadoria de Informações Estratégicas para o Controle Externo - CIEX, tem competência para classificar suas informações de acordo com o grau de sigilo da produção de conhecimento.</p>
+    <p>Art. 10 Para os fins desta Resolução, considera-se informação pessoal o dado relacionado à pessoa identificada ou identificável, à vida privada, à honra ou à imagem.</p>
+    <p>Parágrafo único. As disposições deste artigo aplicam-se, no que couber, às pessoas jurídicas.</p>
+    <h2 class="secao">SEÇÃO II - Das Obrigações do Gestor da Informação</h2>
+    <p>Art. 11 São responsabilidades dos gestores da informação, no que concerne às informações sob sua gestão, produzidas ou custodiadas pelo TCE/RN:</p>
+    <p>I - manter atualizada a relação dos usuários que tenham acesso às informações sob sua responsabilidade;</p>
+    <p>II - coordenar as atividades de identificação, classificação e enquadramento das informações;</p>
+    <p>III - garantir o cumprimento das normas e procedimentos relativos à segurança das informações;</p>
+    <p>IV - definir procedimentos e grupos de acesso, observados os dispositivos legais e regimentais relativos ao sigilo e aoutros requisitos de segurança pertinentes;</p>
+    <p>V - conscientizar usuários internos em relação aos conceitos e às práticas de segurança da informação;</p>
+    <p>VI - tomar as medidas administrativas necessárias para que sejam aplicadas ações corretivas nos casos de comprometimento da segurança da informação por parte dos usuários internos;</p>
+    <p>VII - rotular a informação sigilosa em matéria de sua competência ou inerente à sua área de atuação, enquadrada em hipótese legal de sigilo ou de segredo de justiça.</p>
+    <h2 class="secao">SEÇÃO III - Do Ciclo de Vida da Informação</h2>
+    <p>Art. 12 O ciclo de vida da informação é composto pelas etapas de manuseio, armazenamento, transporte e descarte, assim caracterizadas:</p>
+    <p>I - manuseio: momento em que a informação é criada e manipulada, seja sob a forma física ou eletrônica;</p>
+    <p>II - armazenamento: fase em que há o armazenamento propriamente dito da informação, seja em papel, arquivo físico, banco de dados ou qualquer outro tipo de mídia;</p>
+    <p>III - transporte: etapa em que a informação é transportada, seja em papel, mídia ou por meio remoto em uma rede de computadores;</p>
+    <p>IV - descarte: momento em que a informação é descartada, em formato físico ou eletrônico.</p>
+    <p>Art. 13 Caberá a cada gestor de informação tomar as devidas providências em relação ao ciclo de vida da informação que se encontre em seu setor.</p>
+    <h2 class="secao">SEÇÃO IV - Do Tratamento dos Ativos de Informação</h2>
+    <p>Art. 14 As unidades que compõem o TCE/RN e o Ministério Público de Contas deverão atribuir a um ou mais servidores a responsabilidade de classificar e documentar seus ativos de acordo com seu valor, sensibilidade, criticidade e requisitos legais.</p>
+    <p>§ 1º A atribuição dos responsáveis pela classificação e documentação do ativo deve ser feita de forma hábil e, sempre que possível, após criação ou transferência do respectivo ativo à unidade ou órgão.</p>
+    <p>§ 2º O tempo máximo para a atribuição dos responsáveis pela classificação e documentação do ativo será tratado em norma específica.</p>
+    <p>Art. 15 Após a devida classificação, os ativos deverão ser atribuídos a proprietários, que ficarão responsáveis pelo seu ciclo de vida e sua segurança, mantendo a respectiva documentação atualizada, e revisando-a sempre que houver mudanças que justifiquem a sua atualização, nos termos definidos em norma complementar.</p>
+    <p>Parágrafo único. O proprietário atribuído ao ativo não tem direitos de propriedade sobre o ativo.</p>
+    <p>Art. 16 As instruções para a classificação, documentação, rotulamento e tratamento dos ativos de forma adequada serão objeto de norma específica.</p>
+    <p>Art. 17 Fica sob a responsabilidade da sua respectiva direção, do proprietário ou de quem esteja com a responsabilidade sobre o ativo, autorizar ou rejeitar a sua retirada do estabelecimento.</p>
+    <p>§ 1º A autorização da retirada do ativo será feita para permitir a continuidade das atividades do órgão.</p>
+    <p>§ 2º Apenas servidores do tribunal poderão retirar, com a devida autorização, os ativos do estabelecimento.</p>
+    <p>§ 3º O servidor realizará a devolução do ativo ao órgão quando cessarem os motivos para a retirada ou no caso de encerramento de seu vínculo com o TCE/RN.</p>
+    <p>Art. 18 Os ativos de informação e os recursos de armazenamento e processamento de dados deverão ser utilizados de forma aceitável, nos termos definidos em norma complementar.</p>
+    <p>Art. 19 A norma definirá as regras para a utilização de recursos computacionais pessoais dos funcionários dentro das instalações do tribunal ou em regime de teletrabalho, no exercício das funções.</p>
+    <h2 class="secao">SEÇÃO V - Do Gerenciamento de Eventos</h2>
+    <p>Art. 20 Procedimentos para identificar e tratar os eventos decorrentes dos equipamentos de armazenamento e processamento de dados devem ser implementados e documentados, visando evitar que surjam incidentes que possam comprometer a disponibilidade ou o desempenho dos serviços de TI do TCE.</p>
+    <p>Parágrafo único. A classificação dos eventos de acordo com a sua criticidade, bem como os procedimentos necessários para tratá-los de forma apropriada serão definidos em norma específica.</p>
+    <h2 class="secao">SEÇÃO VI - Do Gerenciamento de Incidentes de Rede</h2>
+    <p>Art. 21 A DIN manterá um núcleo de gerenciamento de incidentes que deverá garantir a restauração dos serviços de TI de forma hábil, nos prazos e termos definidos em norma, minimizando eventuais efeitos negativos nos processos do órgão.</p>
+    <h2 class="secao">SEÇÃO VII - Do Gerenciamento de Problemas</h2>
+    <p>Art. 22 A DIN manterá um núcleo de gerenciamento de problemas, que visa minimizar a interrupção nos serviços de TI, buscando reduzir a quantidade de incidentes e evitar sua recorrência.</p>
+    <p>§ 1º O núcleo de gerenciamento de problemas analisará as causas dos incidentes recorrentes ou de grande impacto para os serviços de TI.</p>
+    <p>§ 2º Será mantido um banco de dados de erros conhecidos que conterá todas as soluções produzidas pelo núcleo de gerenciamento de problemas.</p>
+    <p>§ 3º Os procedimentos necessários para analisar e tratar os problemas serão dispostos em norma específica.</p>
+    <h2 class="secao">SEÇÃO VIII - Da Gestão de Riscos</h2>
+    <p>Art. 23 O TCE/RN deverá elaborar um plano de gerenciamento de riscos que objetive mensurar ameaças, riscos e seus potenciais danos à organização, de modo a fornecer subsídios para melhoria da segurança institucional.</p>
+    <p>Parágrafo único. Critérios para determinar quais riscos são aceitáveis e quais necessitam de controles especiais serão estabelecidos de acordo com os possíveis impactos ao tribunal.</p>
+    <h2 class="secao">SEÇÃO IX - Da Gestão de Continuidade</h2>
+    <p>Art. 24 Serão adotados procedimentos emergenciais e formais, através da definição de um Sistema de Gestão de Continuidade de Negócios (SGCN), para a eventualidade de ocorrência de algum incidente de segurança da informação que possa causar interrupção na continuidade de processos organizacionais decorrentes de desastres ou falhas em recursos de tecnologia da informação e comunicação neste tribunal de contas.</p>
+    <p>Art. 25 O Sistema de Gestão de Continuidade de Negócios se responsabiliza pela realização das cópias de segurança dos ativos de informação para proteção contra desastres, que devem ser hospedadas em locais próprios, acessíveis e distintos das instalações do tribunal.</p>
+    <h2 class="secao">SEÇÃO X - Da Auditoria e Conformidade</h2>
+    <p>Art. 26 Todos os ativos de informação deste tribunal poderão ser objetos de auditoria por equipe designada pela direção de TI, de acordo com os termos definidos em norma específica.</p>
+    <h2 class="secao">SEÇÃO XI - Dos Controles de Acessos</h2>
+    <p>Art. 27 A política de controle de acessos terá como objetivo limitar os acessos às informações e aos recursos de processamento e armazenamento de informação e, através dos termos dispostos nesta política e em norma específica, tratará dos seguintes aspectos:</p>
+    <p>I - controles de acesso físico e lógico às informações sigilosas;</p>
+    <p>II - definição dos papéis que possuem acesso privilegiado;</p>
+    <p>III - requisitos para autorização formal de acesso às informações fiscais;</p>
+    <p>IV - procedimentos para remoção e atribuição de privilégios de usuários;</p>
+    <p>V - controles sobre o gerenciamento das senhas de acesso, incluindo, dentre outros aspectos, o tempo de validade, os parâmetros mínimos de qualidade, as condições para os provimentos de senhas temporárias e as condições de bloqueio;</p>
+    <p>VI - requisitos para acesso às redes e aos serviços de rede;</p>
+    <p>VII - definição de termos sobre o controle de entrada física nas instalações, escritórios e salas do TCE de acordo com seus níveis de criticidade.</p>
+    <p>Art. 28 O acesso aos ativos de informação, físico e de software, assim como o acesso às áreas físicas protegidas devem ser permitidos apenas a pessoas devidamente autorizadas, de acordo com os termos definidos em norma.</p>
+    <p>Art. 29 Os servidores do Tribunal de Contas que tiverem acesso a dados sigilosos constantes das declarações de bens e rendimentos recebidas deverão assinar termo de confidencialidade relativo a esses dados.</p>
+    <p>Art. 30 Os servidores ou quaisquer pessoas que, em virtude do exercício de cargo, função ou emprego público, tenham acesso às informações fiscais relativas às autoridades e aos servidores públicos, sujeitam-se às penalidades prescritas nesta resolução por infração às disposições pertinentes ao dever de sigilo sobre as informações de natureza fiscal e patrimonial de terceiros.</p>
+    <p>Art. 31 Os dados conveniados entre o Núcleo de Informações Estratégicas para o Controle Externo com qualquer outro órgão estarão sujeitos aos termos do acordo de cooperação assinado para fins de controle de acesso desses dados.</p>
+    <p>Art. 32 Todos os servidores devem ser orientados a manter a confidencialidade das informações de autenticação que a e pertencem.</p>
+    <p>§ 1º A senha de autenticação deve possuir um padrão mínimo de qualidade de acordo com as regras dispostas em norma específica, devendo ser alterada toda vez que a sua confidencialidade for comprometida.</p>
+    <p>§ 2º Os usuários ficam responsáveis pelos danos causados pela divulgação não autorizada das informações de autenticação que a ele pertencem.</p>
+    <p>§ 3º As informações de autenticação não devem ser anotadas, a menos que seja feito por procedimento seguro e aprovado.</p>
+    <p>Art. 33 O acesso relacionado aos sistemas corporativos será provido via perfis de trabalho ou autorizado quando possível pelo seu responsável.</p>
+    <p>Art. 34 O cadastro de usuário interno para utilização dos recursos de TI será realizado pela DIN mediante requisição do chefe da unidade organizacional.</p>
+    <p>Art. 35 Após o fim do vínculo do usuário interno com o TCE/RN, suas contas de usuário serão cessadas e todos os seus direitos de acesso serão igualados aos usuários externos do tribunal.</p>
+    <p>Art. 36 Serão definidos perímetros de segurança física a partir dos quais devem haver níveis de proteção específicos contra acesso indevido, de acordo com a criticidade dos recursos que a eles pertencem.</p>
+    <p>Parágrafo único. Procedimentos para proteção contra acesso físico não autorizado serão estabelecidos de acordo com os perímetros de segurança física definidos.</p>
+    <p>Art. 37 Os locais de entrega e carregamento de materiais físicos devem ser controlados e separados das demais áreas restritas do tribunal.</p>
+    <h2 class="secao">SEÇÃO XII - Do Tratamento dos Dados Pessoais</h2>
+    <p>Art. 38 O TCE/RN deverá de forma clara e objetiva especificar a finalidade e o método utilizado no tratamento dos dados pessoais para seu titular.</p>
+    <p>Art. 39 Somente os dados pessoais estritamente necessários ao atendimento da finalidade pública e ao desempenho das funções típicas do Tribunal de Contas serão tratados.</p>
+    <p>§ 1º Nas hipóteses nas quais o Tribunal de Contas estiver desempenhando funções atípicas, distintas daquelas previstas no artigo 71 da Constituição Federal, os dados pessoais de pessoas naturais deverão ser tratados de acordo com as bases legais indicadas na Lei Federal n. 13709/2018.</p>
+    <p>§ 2º O consentimento do titular só será necessário quando desempenhadas funções atípicas e nas específicas situações em que a Lei Geral de Proteção de Dados Pessoais exigir.</p>
+    <p>Art. 40 O TCE deverá garantir a integridade dos dados pessoais, disponibilizando o direito ao titular de conferir a exatidão, clareza e atualização desses dados de acordo com a necessidade e cumprimento da finalidade do tratamento.</p>
+    <p>Art. 41 O TCE deverá garantir a proteção dos dados pessoais em quaisquer meios, e não apenas os digitais.</p>
+    <p>Art. 42 É vedado o uso de dados pessoais com a intenção de discriminar ou promover qualquer tipo de abuso contra os respectivos titulares ou contra qualquer outra pessoa.</p>
+    <p>Art. 43 Todos os sistemas do TCE que coletam informações pessoais deverão ter seu termo de uso e política de privacidade destacando sua finalidade e consentimento dos titulares dos dados.</p>
+    <p>Art. 44 Em caso de compartilhamento de dados com outros órgãos e entes públicos, o Tribunal de Contas deverá estar atento às determinações contidas em específica legislação de regência sobre proteção de dados pessoais.</p>
+    <p>Art. 45 Os servidores e sistemas do TCE devem possuir criptografia, controle de sessão e <em>logs</em>, de modo a prevenir e realizar auditorias em caso de vazamento de dados pessoais para terceiros.</p>
+    <p>Art. 46 Em caso de vazamento de dados pessoais armazenados pelo TCE,é obrigatório que o titular dos dados seja avisado sobre o incidente.</p>
+    <h2 class="secao">SEÇÃO XIII - Do Correio Eletrônico Institucional</h2>
+    <p>Art. 47 O uso do serviço de correio eletrônico, através do endereço institucional do TCE/RN, deve ser exclusivo para realização de trabalhos operacionais do tribunal.</p>
+    <p>Art. 48 Todos os membros e servidores internos do tribunal poderão solicitar a DIN um endereço de correio eletrônico institucional para fins de comunicação e trabalho.</p>
+    <p>Art. 49 Todas as comunicações por meio de correio eletrônico que sejam feitas em nome do TCE/RN deverão, sempre que possível, utilizar endereços institucionais.</p>
+    <p>Art. 50 As mensagens transmitidas entre os servidores deverão, prioritariamente, ter como destinatário endereços institucionais.</p>
+    <p>Art. 51 Regras para a utilização segura do serviço de correio eletrônico, limitação de espaço de armazenamento, cópias de segurança, responsabilidades, direitos e penalidades referentes ao uso dessas contas serão especificadas através de norma complementar.</p>
+    <h2 class="secao">SEÇÃO XIV - Do Acesso à Internet</h2>
+    <p>Art. 52 Todos os funcionários do TCE/RN terão acesso à Internet, ficando restritos aos endereços permitidos pelas regras dispostas em norma complementar.</p>
+    <p>Art. 53 Cabe à DIN implantar os controles de acesso e mecanismos de auditoria que garantam o monitoramento do acesso à internet pela rede corporativa do TCE/RN.</p>
+    <p>Art. 54 Os usuários são responsáveis pelos conteúdos dos endereços acessados por eles.</p>
+    <h2 class="secao">SEÇÃO XV - Da Publicação de Informação</h2>
+    <p>Art. 55 A Assessoria de Comunicação Social, a Escola de Contas do TCE/RN e a Secretaria das Sessões possuem competência para fazer publicações sobre notícias e transmissão ao vivo de eventos.</p>
+    <p>Parágrafo único. O Presidente do TCE/RN poderá conceder autorização a outras unidades administrativas para que realizem publicação de notícias e transmissão ao vivo de eventos.</p>
+    <p>Art. 56 A utilização de perfis institucionais mantidos em redes sociais com o objetivo de divulgar ou compartilhar informações do TCE/RN deverá estar em consonância tanto com a Política de Segurança da Informação quanto com os objetivos estratégicos da instituição.</p>
+    <h2 class="secao">SEÇÃO XVI - Da Segurança em Recursos Humanos</h2>
+    <p>Art. 57 As obrigações contratuais estabelecidas aos novos servidores, estagiários e terceirizados, ou aos que decorrerem de renovação de contrato, devem estar em consonância com esta política de segurança da informação.</p>
+    <p>Art. 58 Os membros, servidores, estagiários e terceirizados do TCE/RN observarão, no exercício das suas funções, os padrões éticos de conduta que lhes são inerentes, norteando-se pelos princípios da transparência, prudência, integridade profissional e pessoal, dignidade, probidade, lisura no que concerne à relação entre suas atividades públicas e particulares garantindo assim a preservação da segurança da informação e caráter profissional inerente ao exercício da função pública.</p>
+    <p>§ 1º Os membros, servidores, estagiários e terceirizados do TCE/RN conduzirão suas atividades de maneira a prevenir a violação das informações e a continuidade dos serviços.</p>
+    <p>§ 2º Em caso de desligamento do servidor, terceirizado ou estagiário, por iniciativa própria ou não, os direitos de acesso serão removidos e as senhas compartilhadas deverão ser alteradas.</p>
+    <p>§ 3° Em caso de demissão, as ações de segurança deverão ser feitas em paralelo ao ato de formalização do desligamento.</p>
+    <h2 class="secao">CAPÍTULO III<br>ATUALIZAÇÕES</h2>
+    <p>Art. 59 O TCE/RN instituirá Comissão de Segurança da Informação (CSI) de caráter permanente, que tem por finalidade formular e conduzir diretrizes impostas por esta política, analisar periodicamente sua efetividade, propor normas e mecanismos institucionais para melhoria contínua, bem como assessorar a unidade organizacional responsável pela segurança da informação. <span class="revogado">(Revogado pela Resolução n.º 023/2026-TCE)</span></p>
+    <p>§ 1º É de competência da CSI a revisão, no máximo a cada 5 (cinco) anos ou sempre que se fizer necessário, em função de alterações na legislação pertinente de modo a atender aos novos requisitos corporativos. <span class="revogado">(Revogado pela Resolução n.º 023/2026-TCE)</span></p>
+    <p>§ 2° Fica sob a responsabilidade da CSI a criação de termos específicos, em norma complementar, que definirão a forma adequada da realização de cópias de segurança dos ativos de informação pertencentes ao órgão. <span class="revogado">(Revogado pela Resolução n.º 023/2026-TCE)</span></p>
+    <p>§ 3º A composição e os regulamentos da CSI serão estabelecidos por ato da Presidência. <span class="revogado">(Revogado pela Resolução n.º 023/2026-TCE)</span></p>
+    <h2 class="secao">CAPÍTULO IV<br>PENALIDADES</h2>
+    <p>Art. 60 Ações que violem esta Política ou quaisquer de suas diretrizes, normas ou procedimentos, ou que infrinjam os controles de segurança da informação e comunicações deverão ser comunicados à Corregedoria do TCE/RN, nos termos do § 1° do art. 15 da Lei Orgânica do TCE/RN, para que sejam devidamente apuradas;</p>
+    <p>Parágrafo único. Caberá à Corregedoria do TCE/RN aplicar aos responsáveis as penalidades dispostas no art. 138, incisos I a VI, da Lei Complementar Estadual nº 122, de 30 de junho de 1994, que dispõe sobre o regime jurídico único dos servidores públicos civis do Estado e das autarquias e fundações públicas estaduais, e institui o respectivo Estatuto e dá outras providências.</p>
+    <h2 class="secao">CAPÍTULO V<br>DISPOSIÇÕES FINAIS</h2>
+    <p>Art. 61 A presente Política de Segurança da Informação não exclui a necessidade de que o TCE/RN institua Política de Proteção de Dados Pessoais, em conformidade com a Lei de Acesso à Informação e com a Lei Geral de Proteção de Dados.</p>
+    <p>Parágrafo único. Na Política de Proteção de Dados Pessoais, o TCE/RN designará agente encarregado dos dados, com a função de atuar como canal de comunicação entre a instituição, o titular dos dados e a ANPD.</p>
+    <p>Art. 62 Casos omissos serão decididos pelo Presidente do Tribunal de Contas.</p>
+    <p>Art. 63 Esta resolução entra em vigor na data de sua publicação.</p>
+    <p>Sala das Sessões do Pleno, em Natal (RN), 08 de setembro de 2021.</p>
+    <p class="assinatura">Conselheiro PAULO ROBERTO CHAVES ALVES</p>
+    <p class="assinatura cargo">Presidente</p>
+    <p class="assinatura">Conselheiro RENATO COSTA DIAS</p>
+    <p class="assinatura cargo">Vice-Presidente</p>
+    <p class="assinatura">Conselheiro TARCÍSIO COSTA</p>
+    <p class="assinatura">Conselheira MARIA ADÉLIA DE ARRUDA SALES SOUSA</p>
+    <p class="assinatura">Conselheiro CARLOS THOMPSON COSTA FERNANDES</p>
+    <p class="assinatura">Conselheiro FRANCISCO POTIGUAR CAVALCANTI JUNIOR</p>
+    <p class="assinatura">Conselheiro ANTÔNIO GILBERTO DE OLIVEIRA JALES</p>
+    <p>Fui presente:</p>
+    <p class="assinatura">Bacharel THIAGO MARTINS GUTERRES</p>
+    <p class="assinatura cargo">Procurador-Geral do Ministério Público junto ao Tribunal de Contas do Estado</p>
+  </main>
 </body>
 </html>
 
